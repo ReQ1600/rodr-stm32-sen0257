@@ -3,9 +3,11 @@ Module for reading data from sen0257 pressure sensor and filtering it.
 
 Tested on **Nucleo-F767ZI**
 
----
+## Requirements
+ - HAL
+ - UART
 
-## Use Example for FreeRTOS with CMSIS v1
+## Example for FreeRTOS with CMSIS v1
 ```c
 void startGetPressureTask(void const * argument)
 {
