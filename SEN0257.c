@@ -2,7 +2,7 @@
  * SEN0257.c
  *
  *  Created on: May 26, 2025
- *      Author: Admin
+ *      Author: Mateusz Drogowski
  */
 #include "SEN0257.h"
 
