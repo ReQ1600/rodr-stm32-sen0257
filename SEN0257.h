@@ -5,7 +5,6 @@
  *      Author: Mateusz Drogowski
  */
 
-//TODO: make static thing s static
 #ifndef INC_SEN0257_H_
 #define INC_SEN0257_H_
 
