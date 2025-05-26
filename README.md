@@ -1,4 +1,4 @@
-# rodr-stm32-sen0257
+# STM32 SEN0257 MODULE
 Module for reading data from sen0257 pressure sensor and filtering it.
 
 Tested on **Nucleo-F767ZI**
