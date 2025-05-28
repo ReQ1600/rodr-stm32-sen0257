@@ -71,11 +71,8 @@ void startGetPressureTask(void const * argument)
 
 		pressure = (long_fir_avg - OFFSET) * 250.0f;//this is output so it should be queued
 
-		//packing float into int to put it into queue
-		uint32_t packed_data;
-		memcpy(&packed_data, &pressure, sizeof(float));
-
-		osMessagePut(pressureQueueHandle, packed_data, osWaitForever);
+		//packing float into int and putting it into queue
+		osMessagePut(pressureQueueHandle, *(int32_t *)&pressure, osWaitForever);
 
 		osDelay(10);//should be changed to fit whatever you want to do
 	}
