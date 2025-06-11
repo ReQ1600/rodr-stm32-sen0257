@@ -20,6 +20,6 @@
 #define GET_AVG_ID(id, win) (id + 1) % win
 
 float SEN0257_readStableAnalog(int samples, ADC_HandleTypeDef *hadc);
-float SEN0257_getMedian(float arr[], int size);
+float SEN0257_getMedian(float arr[]);
 
 #endif /* INC_SEN0257_H_ */
